@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Product</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- home part -->
+    
+    <div class="navbar">
+        <div class="max-width">
+            <div class="content">
+            <div class="logo">
+                <img src="img/images/logo.png" alt="">
+            </div>
+        <nav>
+            <ul class="menu ">
+                <li><a href="index.html">home</a></li>
+                <li><a href="product.html">products</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="cart.html">contact</a></li>
+                <li><a href="account.html">account</a></li>
+                
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="img/images/cart.png" alt="" class="cart-icon"></a>
+       <div id="bar">
+        <i class="fas fa-bars" ></i>
+       </div>
+     
+    </div>
+    </div>
+    </div>
+ 
+
+
+
+
+     <!-- cart  -->
+   <section class="feature cart">
+    <div class="wrapper">
+        <table  cellpadding="0" cellspacing="0">
+            <tr>
+                <th>product</th>
+                <th>quantity</th>
+                <th>total</th>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                    <img src="img/images/buy-1.jpg" alt="">
+                    <div class="info">
+                        <h3>red printed t-shirt</h3>
+                        <h5>$60.00</h5>
+                        <a href="" class="btn"> read more </a>
+                    </div>
+                   </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                    <img src="img/images/buy-1.jpg" alt="">
+                    <div class="info">
+                        <h3>red printed t-shirt</h3>
+                        <h5>$60.00</h5>
+                        <a href="" class="btn"> read more </a>
+                    </div>
+                   </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                    <img src="img/images/buy-2.jpg" alt="">
+                    <div class="info">
+                        <h3>red printed t-shirt</h3>
+                        <h5>$60.00</h5>
+                        <a href="" class="btn"> read more </a>
+                    </div>
+                   </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                   <div class="cart-info">
+                    <img src="img/images/buy-3.jpg" alt="">
+                    <div class="info">
+                        <h3>red printed t-shirt</h3>
+                        <h5>$60.00</h5>
+                        <a href="" class="btn"> read more </a>
+                    </div>
+                   </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>total</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>taxt</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>grand total</td>
+                    <td>$3000</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+   </section>
+  
+
+
+   
+   
+   
+    <footer>
+       <div class="wrapper">
+      <div class="footer-content">
+          <div class="col7 footer">
+              <h3>dowmload our app</h3>
+              <p>Dowload App for anroid and ios Mobile Phone</p>
+              <div class="app-logo">
+                  <img src="img/images/play-store.png" alt="">
+                  <img src="img/images/app-store.png" alt="">
+
+
+              </div>
+          </div>
+          <div class="col7 footer-1">
+              <img src="img/images/logo-white.png" alt="">
+              <p>our purpose is to sustainably make the pleasure <br>  and benefits of spoer accesible to the many</p>
+          </div>
+          <div class="col7 footer-2" >
+              <h3>useful links</h3>
+             <ul>
+                 <li><a href="">coupons</a></li>
+                 <li><a href="">blog post</a></li>
+                 <li><a href="">return policy</a></li>
+                 <li><a href="">join affiliate</a></li>
+             </ul>
+                        </div>
+          <div class="col7 footer-3">
+              <h3>follow us</h3>
+              <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i>facebook</a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i>twitter</a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i>instragram</a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i>youtube</a></li>
+              </ul>
+          </div>
+      </div>
+      <hr> 
+         <p class="right"> @copy right-2021 <span>suman</span>
+
+         </p>
+       </div>
+    </footer>
+    <script>
+          let bar = document.getElementById('bar')
+        let menu = document.querySelector('.menu')
+       bar.addEventListener('click',()=>{
+           menu.classList.toggle('active')
+       });
+    </script>
+</body>
+</html>
